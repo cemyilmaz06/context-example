@@ -6,7 +6,7 @@ const OgrenciList = () => {
     <div>
         <img src="https://gelecekegitimde.com/wp-content/uploads/2015/01/fft99_mf3019637.jpeg" alt="img" />
 
-        <h2 style={{textAlign:"center"}}>ÖĞRENCİ LİSTESİ</h2>
+        <h2 style={{textAlign:"center",background:"pink"}}>ÖĞRENCİ LİSTESİ</h2>
         <OgrenciItem/>
     </div>
   )
