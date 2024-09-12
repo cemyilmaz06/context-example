@@ -1,7 +1,16 @@
+import { createContext } from "react";
+import Home from "./components/Home";
+import "./data.js";
+export const StudentContext=createContext()
+
 function App() {
+
+
   return (
-    <div className="App">
-      <h1>Cohort 17</h1>
+    <div>
+     <StudentContext.Provider>
+      <Home/>
+     </StudentContext.Provider>
     </div>
   );
 }
